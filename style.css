@@ -1,20 +1,69 @@
 *{
-    margin: auto;
+    margin: 0;
     padding: 0%;
-    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
-.container{
+
+body{
     width: 100%;
     height: 100vh;
-    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5f7a5f;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 
-/* This is for music-player */
-
 .music-player{
-    background: aqua;
-    width: 400px;
-    padding: 25px 35px;
+    width: 350px;
+    height: 550px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 40px 100px rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    overflow: hidden;
+    color: #d5eed5;
+}
+
+.music-name,
+.artist-name{
     text-align: center;
+    text-transform: capitalize;
+}
+
+.music-name{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.artist-name{
+    font-size: 20px;
+}
+
+.disk{
+    position: relative;
+    display: block;
+    margin: 40px auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-image: ;
+    background-image: ;
+    background-size: cover;
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.08)
+}
+
+
+.disk ::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background:
 }
