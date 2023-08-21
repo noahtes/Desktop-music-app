@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-< lang="en">
+ <lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +8,25 @@
 </head>
 <body>
 
+    <audio src="" id="audio"></audio>
+
     <div class="music-player">
-        <h1 class="music-name">song one</h1>
+        <h1 class="music-name">song name</h1>
         <p class="artist-name">artist</p>
 
         <div class="disk"></div>
+
+        <div class="song-slider">
+            <input type="range"  value="0"  class="seek-bar">
+            <span class="current-time">"00.00</span>
+            <span class="song-duration">"00.00"</span>
+        </div>
+
+        <div class="controls">
+            <button class="fowrd-button"><img src="" alt=""></button>
+            <button class="play-button" class="pause-button" ></button>
+        </div>
     </div>
 <script src="index.js"></script>
 </body>
-</html>
+</html>  
